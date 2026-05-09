@@ -538,7 +538,13 @@ select { appearance: none; -webkit-appearance: none; }
 }
 
 /* ─── SERVICES ────────────────────────────────── */
-.services-section { background: #060606; border-bottom: 1px solid rgba(255,255,255,0.04); }
+.services-section{
+  background:linear-gradient(
+    180deg,
+    #060606 0%,
+    #0a0a0a 100%
+  );
+}
 .services-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -572,7 +578,13 @@ select { appearance: none; -webkit-appearance: none; }
 .service-desc { font-size: 0.85rem; color: var(--text-dim); line-height: 1.7; }
 
 /* ─── PORTFOLIO ───────────────────────────────── */
-.portfolio-section { background: #0a0a0a; border-bottom: 1px solid rgba(255,255,255,0.04); }
+.portfolio-section{
+  background:linear-gradient(
+    180deg,
+    #0b0b0b 0%,
+    #070707 100%
+  );
+}
 .portfolio-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
